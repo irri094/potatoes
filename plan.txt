@@ -1,0 +1,74 @@
+DS
+- fenwick
+- cht linear
+- cht dynamic
+- hld
+- implicit treap
+- li chao tree
+- link cut tree
+- persistent segtree
+- * wavelet
+- sparse table
+- 2d bit
+- mo with query
+
+tree
+- binary lifting
+- segtree
+
+dp
+- ? alien trick
+- d&c
+- knuth
+- ? slope trick
+
+geo
+- ja ase tai
+
+graph
+- bridge cutpoint (extra)
+- dominator tree
+- eulerian tour
+- scc + 2sat
+
+flow & matching
+- dinic
+- blossom
+- global min cut
+- hungarian
+- MCMF
+- demand flo
+
+math
+- fwht
+- congruence ja ase
+- floor sum
+- fft
+- gaussian
+- ntt
+- pollard rho
+- prime counting function
+- xor gaussian
+- segmented sieve
+
+misc
+- fastio
+- ost
+- flags
+- debugger
+- stress tester
+
+string
+- aho corasick
+- KMP
+- suffix tree
+- suffix automata
+- * z
+- manachar
+
+formula
+ - stirling formula
+ - interpolation 
+ - kisu ncr formula
+ - fibonacci
+ - catalan
