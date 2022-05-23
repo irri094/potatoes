@@ -1,74 +1,72 @@
 DS
-- fenwick
-- cht linear
-- cht dynamic
-- hld
-- implicit treap
-- li chao tree
-- link cut tree
-- persistent segtree
-- * wavelet
-- sparse table
-- 2d bit
-- mo with query
-
-tree
-- binary lifting
-- segtree
+[X] fenwick
+[X] cht linear
+[X] cht dynamic
+[X] hld
+[X] implicit treap
+[X] li chao tree
+[X] link cut tree
+[X] persistent segtree
+[ ] * wavelet
+[ ] sparse table
+[ ] 2d bit
+[ ] mo with query
+[X] binary lifting
+[X] segtree
 
 dp
-- ? alien trick
-- d&c
-- knuth
-- ? slope trick
+[X] ? alien trick
+[ ] d&c
+[ ] knuth
+[X] ? slope trick
 
 geo
-- ja ase tai
+[X] ja ase tai
 
 graph
-- bridge cutpoint (extra)
-- dominator tree
-- eulerian tour
-- scc + 2sat
+[X] bridge cutpoint (extra)
+[X] dominator tree
+[X] eulerian tour
+[X] scc + 2sat
 
 flow & matching
-- dinic
-- blossom
-- global min cut
-- hungarian
-- MCMF
-- demand flo
+[X] dinic
+[X] blossom
+[X] global min cut
+[X] hungarian
+[X] MCMF
+[ ] demand flo
 
 math
-- fwht
-- congruence ja ase
-- floor sum
-- fft
-- gaussian
-- ntt
-- pollard rho
-- prime counting function
-- xor gaussian
-- segmented sieve
+[X] fwht
+[X] congruence ja ase
+[X] floor sum
+[X] fft
+[X] gaussian
+[X] ntt
+[X] pollard rho
+[X] prime counting function
+[X] xor gaussian
+[ ] segmented sieve
 
 misc
-- fastio
-- ost
-- flags
-- debugger
-- stress tester
+[X] fastio
+[X] ost
+[X] flags
+[X] debugger
+[X] stress tester
 
 string
-- aho corasick
-- KMP
-- suffix tree
-- suffix automata
-- * z
-- manachar
+[X] aho corasick
+[X] KMP
+[X] suffix tree
+[X] suffix automata
+[ ] * z
+[X] manachar
 
 formula
- - stirling formula
- - interpolation 
- - kisu ncr formula
- - fibonacci
- - catalan
+[ ] stirling formula
+[ ] interpolation 
+[ ] kisu ncr formula
+[ ] fibonacci
+[ ] catalan
