@@ -11,6 +11,7 @@ struct item {
   }
   pitem l, r;
 };
+/// 0-indexed
 namespace Treap {
   int cnt(pitem it){return it!=nullptr?it->cnt:0;}
   LL sum(pitem it) {return it!=nullptr?it->sum:0;}
@@ -36,6 +37,7 @@ namespace Treap {
     else merge (r->l, l, r->l),  t = r;
     upd_cnt (t);
   }
+  /// r will have key-th and above
   void split(pitem t,pitem &l,pitem &r,int key,
       int add = 0) {
     if (t==nullptr) { l = r = nullptr; return; }
@@ -56,6 +58,7 @@ namespace Treap {
     split(t2, t2, t3, r-l+1); LL ans = t2->sum;
     merge(t,t1,t2); merge(t,t,t3); return ans;
   }
+  /// before key'th element
   void insert (pitem & t, int key, int value) {
     pitem x = new item(value); pitem L, R;
     split(t, L, R, key); merge(L, L, x);
@@ -72,15 +75,8 @@ namespace Treap {
     push (t); output (t->l, v);
     v.push_back(t->value); output (t->r, v);
   }
-  void output2 (pitem t) {
-    if (t==nullptr)  return;
-    push(t); output2 (t->l);
-    cout << (t->value) << " "; output2 (t->r);
-  }
 }
 int main() {
-  ios::sync_with_stdio(false);
-  cin.tie(0);
   int n, q, m; cin >> n >> q >> m;
   pitem tr = nullptr;
   for (int i = 0; i < n; i++) {

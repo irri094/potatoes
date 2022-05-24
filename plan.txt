@@ -1,9 +1,9 @@
 DS
-[X] fenwick
+[X] fenwick [checked-sabbir]
 [X] cht linear
 [X] cht dynamic
 [X] hld
-[X] implicit treap
+[X] implicit treap [checked-sabbir]
 [X] li chao tree
 [X] link cut tree
 [X] persistent segtree

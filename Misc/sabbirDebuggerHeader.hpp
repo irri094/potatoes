@@ -21,9 +21,5 @@ struct printer{
 #define dbg(x) "[",#x,": ",(x),"] "
 #define tham getchar()
 #endif
-#define FASTIO ios_base::sync_with_stdio(false)\
-;cin.tie(NULL);cout.tie(NULL);
-#define eq(x, y) (fabs((x)-(y))<error)
-#define bt(i) (1LL<<(i))
 mt19937_64 rng((unsigned)chrono::system_clock\
 ::now().time_since_epoch().count());
