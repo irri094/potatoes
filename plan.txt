@@ -7,10 +7,10 @@ DS
 [X] li chao tree
 [X] link cut tree
 [X] persistent segtree
-[ ] * wavelet
-[ ] sparse table
-[ ] 2d bit
-[ ] mo with query
+[X] * wavelet
+[X] sparse table
+[X] 2d bit
+[X] mo with query
 [X] binary lifting
 [X] segtree
 
@@ -35,7 +35,7 @@ flow & matching
 [X] global min cut
 [X] hungarian
 [X] MCMF
-[ ] demand flo
+[X] demand flo
 
 math
 [X] fwht
@@ -47,7 +47,7 @@ math
 [X] pollard rho
 [X] prime counting function
 [X] xor gaussian
-[ ] segmented sieve
+[X] segmented sieve
 
 misc
 [X] fastio
@@ -61,7 +61,7 @@ string
 [X] KMP
 [X] suffix tree
 [X] suffix automata
-[ ] * z
+[X] * z
 [X] manachar
 
 formula
