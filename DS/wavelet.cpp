@@ -75,9 +75,3 @@ struct weblet{
     if(r) delete r;
   }
 };
-
-int main(){
-  ios::sync_with_stdio(false); cin.tie(0);
-
-
-}
