@@ -8,10 +8,10 @@ DS
 [X] link cut tree
 [X] persistent segtree
 [X] * wavelet
-[X] sparse table
-[X] 2d bit
+[X] sparse table [checked-sabbir]
+[X] 2d bit [checked-sabbir]
 [X] mo with query
-[X] binary lifting
+[X] binary lifting / lca [checked-sabbir]
 [X] segtree
 
 dp
