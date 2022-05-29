@@ -16,8 +16,8 @@ DS
 
 dp
 [X] ? alien trick
-[ ] d&c
-[ ] knuth
+[X] d&c
+[X] knuth
 [X] ? slope trick
 
 geo
