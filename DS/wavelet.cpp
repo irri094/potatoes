@@ -3,6 +3,7 @@ struct weblet{
   int lo, hi;
   weblet *l=0, *r=0;
   vector<int> b, c;
+// call weblet(a+1, a+n+1, minval, maxval)
   weblet(int *from, int *to, int x, int y){
     lo = x, hi = y;
     if( from >= to) return;
