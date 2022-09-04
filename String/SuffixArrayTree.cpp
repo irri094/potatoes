@@ -35,11 +35,12 @@ namespace DA {
                               r[i+k]==r[j+k];k++);
     }
   }
+  ///LCP[i] = LCP of (SA[i], SA[i + 1])
   void suffixArray(const string &s,
       vector< int >&suffArray, vector< int >&lcp){
     int n = s.size(); SIGMA = 0;
     for(int i = 0; i < n; i ++) {
-      if ('a'<=s[i]&&s[i]<='z') r[i] = s[i]-'a'+2;
+      if ('a'<=s[i]&&s[i]<='z') r[i] = s[i]-'a'+2; ///CHANGE THIS 
       else r[i] = 1;  ///separators
       SIGMA = max(SIGMA, r[i]);
     }
