@@ -74,3 +74,4 @@ formula
 /*------ maybe should add ----------*/
 implicit segtree
 k-d tree
+clean centroid decomp
