@@ -70,3 +70,7 @@ formula
 [ ] kisu ncr formula
 [ ] fibonacci
 [ ] catalan
+
+/*------ maybe should add ----------*/
+implicit segtree
+k-d tree
