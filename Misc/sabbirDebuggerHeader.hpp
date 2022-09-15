@@ -23,3 +23,5 @@ struct printer{
 #endif
 mt19937_64 rng((unsigned)chrono::system_clock\
 ::now().time_since_epoch().count());
+#pragma GCC optimize("O3,unroll-loops")
+#pragma GCC target("avx2,bmi,bmi2,lzcnt")
