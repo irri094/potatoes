@@ -73,5 +73,7 @@ formula
 
 /*------ maybe should add ----------*/
 implicit segtree
-k-d tree
 clean centroid decomp
+
+
+pass: ut6rU9Y4P4
