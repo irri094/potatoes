@@ -74,6 +74,7 @@ formula
 /*------ maybe should add ----------*/
 implicit segtree
 clean centroid decomp
+LGV lemma https://atcoder.jp/contests/abc216/editorial/3126
 
 
 pass: ut6rU9Y4P4
