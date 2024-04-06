@@ -78,3 +78,7 @@ LGV lemma https://atcoder.jp/contests/abc216/editorial/3126
 
 
 pass: ut6rU9Y4P4
+
+hashing
+power sum
+partition formula
