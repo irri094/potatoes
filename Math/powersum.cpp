@@ -41,7 +41,7 @@ sum (x = 0 to n) x^k
 =sum(i=0tok)Stirling2(k,i)*i!*ncr(n + 1, i + 1)
 =sum(i=0tok)Stirling2(k,i)*i!*(n+1)!/(i+1)!/(n-i)!
 =sum(i=0 to k)Stirling2(k,i)*(n - i + 1) *
-		(n - i + 2) * ... (n + 1) / (i + 1)  */
+    (n - i + 2) * ... (n + 1) / (i + 1)  */
 ll S[105][105];
 ll solve(int n, int k) {//(Shorter)
   S[0][0] = 1 % mod;
@@ -49,16 +49,16 @@ ll solve(int n, int k) {//(Shorter)
     for (int j = 1; j <= i; j++) {
       if (i == j) S[i][j] = 1 % mod;
       else S[i][j] = (j * S[i - 1][j] +
-	S[i - 1][j - 1]) % mod;}}
+  S[i - 1][j - 1]) % mod;}}
   ll ans = 0;
   for (int i = 0; i <= k; i++) {
     ll fact = 1, z = i + 1;
     for (ll j = n - i + 1; j <= n + 1; j++) {
-			ll mul = j;
-			if (mul % z == 0) {mul /= z;	z /= z;}
-			fact = (fact * mul) % mod; 
-		}
-		ans = (ans + S[k][i] * fact) % mod;
-	}
+      ll mul = j;
+      if (mul % z == 0) {mul /= z;  z /= z;}
+      fact = (fact * mul) % mod; 
+    }
+    ans = (ans + S[k][i] * fact) % mod;
+  }
   return ans;
 }
